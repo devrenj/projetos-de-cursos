@@ -1,0 +1,79 @@
+html, body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  background-color: black;
+  margin: auto;
+  width: fit-content;
+  max-width: 400px;
+}
+
+h1 {
+  border: 1px solid grey;
+  padding: 1px 1px 1px 1px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+textarea{
+  background-color: white;
+}
+
+#formularioUser {
+  background-color: rgba(229, 123, 255, 0.459);
+  border-radius: 10px;
+  padding: 25px;
+  margin: auto;
+  color: white;
+}
+
+#formularioUser input, textarea, select {
+  margin: auto;
+  background-color: rgb(64, 0, 80);
+  color: white;
+}
+
+#formularioUser label {
+  text-transform: capitalize;
+  color: rgba(255, 138, 138, 0.521);
+  font-weight: bold;
+}
+
+#formularioNome {
+  color: white;
+  background-color: rgba(220, 20, 60, 0.445);
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+#formularioNome input {
+  background-color: white;
+  color: black;
+}
+
+#formularioNome label {
+  color: white;
+}
+
+footer {
+  padding: 2px 2px;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.24);
+}
+
+.centralizado {
+  margin: auto;
+  width: fit-content;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: darkred;
+}

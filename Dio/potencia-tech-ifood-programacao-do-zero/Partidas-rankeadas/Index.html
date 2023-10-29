@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- 
+- Desenvolvido por: Roberto Nóbrega Jr.
+- Github @devrenj
+-
+- ESTE PROJETO NÃO É USADO PARA FINS COMERCIAIS
+- APENAS PARA DESENVOLVIMENTO ACADÊMICO
+- LICENSA MIT (c) 2023
+- SUA REPRODUÇÃO É PERMITIDA DESDE QUE OBSERVADAS AS MESMAS DIRETRIZES
+- Agradecimentos: Steph Hoel @stephoel
+- Referências: MDN.com | W3Schools.com
+-->
+<html lang="ept-BRn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">  <title>Partidas Rankeadas</title>
+</head>
+<body>
+  
+  <main id="conteiner">
+    <header id="titulo">
+      <h1>Calculadora de Partidas Rankeadas</h1>
+    </header>
+      <section id="entrada">
+        <div id="principal">
+          <div id="form">
+            <label for="nivel">Nível:</label>
+            <input type="textarea" name="nivel" id="nivel" placeholder="Digite aqui"></input>
+            <div id="botoes">
+              <button type="button" class="botao" onclick="clearInterval(timeout), limparTudo(), calcularRank()">Calcular</button>
+              <button type="button" class="botao" onclick="limparTudo()">Reset</button>
+            </div>
+            </div>
+            <footer id="autor">
+              <p>2023 (c) Roberto Nóbrega Jr.</p>
+            </footer>
+          </div>
+        </section>
+
+      <section id="saida">
+        <p>
+          <span id="vitorias"></span>
+          <span id="rank"></span>
+        </p>
+          <sub>
+            <p>
+              <span id="mensagemServidor"></span>
+            </p>
+          </sub>
+    </section>
+  </main>
+  <script src="/script/script.js"></script>
+</body>
+</html>

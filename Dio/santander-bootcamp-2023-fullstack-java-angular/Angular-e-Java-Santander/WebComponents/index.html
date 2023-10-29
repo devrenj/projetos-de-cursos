@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewspanort" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/card.css" />
+    <script src="src/components/CardNews.js" defer></script>
+    <script src="src/components/tituloDinamico.js" defer></script>
+    <title>PORTAL DE NOTÍCIAS GALÁTICAS</title>
+  </head>
+  <body>
+    <!-- <div class="conteiner">
+      <div class="card">
+        <div class="card_esquerdo">
+          <span>por Roberto Nóbrega</span>
+          <a href="#">Darth Vader Contrata Devs</a>
+          <p>Darth vader procura desenvolvedores frontend que saibam trabalhar com componentes</p>
+        </div>
+        <div class="card_direito">
+          <img src="assets/asset-vader.png" alt="" />
+        </div>
+      </div>
+    </div> -->
+    <card-news
+      autor="Roberto Nóbrega Jr."
+      titulo="Darth Vader Contrata"
+      link-url="https://www.google.com"
+      caminho="/assets/asset-vader.png"
+      conteudo="Darth vader procura desenvolvedores frontend que saibam trabalhar com componentes"
+    ></card-news>
+
+    <card-news
+    titulo="Yoda convence república a utilizar componentes"
+    link-url="https://www.google.com/yoda"
+    conteudo="Yoda se pronuncia e choca a república"
+  ></card-news>
+
+  <card-news
+  autor="Roberto Nóbrega Jr."
+  titulo="Sênior acredita que todos se aplicaram às vagas do PicPay"
+  link-url="https://www.google.com/senior"
+  conteudo='"Todos deveriam programar em Java" -Diz programador experiente no setor'
+></card-news>
+    <!-- <titulo-dinamico titulo="Noticia Urgente"></titulo-dinamico> -->
+  </body>
+</html>

@@ -1,0 +1,1 @@
+Uma API Rest é um arquivo JSON que permite a interação entre sistemas diferentes

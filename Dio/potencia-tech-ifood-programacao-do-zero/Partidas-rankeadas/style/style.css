@@ -1,0 +1,158 @@
+/**
+* Desenvolvido por: Roberto Nóbrega Jr.
+* Github @devrenj
+*
+* ESTE PROJETO NÃO É USADO PARA FINS COMERCIAIS
+* APENAS PARA DESENVOLVIMENTO ACADÊMICO
+* LICENSA MIT (c) 2023
+* SUA REPRODUÇÃO É PERMITIDA DESDE QUE OBSERVADAS AS MESMAS DIRETRIZES
+*
+* Agradecimentos: Steph Hoel @stephoel
+* Referências: MDN.com | W3Schools.com
+**/
+
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.6;
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0ccd4f81-2cc9-4920-bff8-7a3aa0313731/df4uh2o-e7dc4bd0-59cb-46ac-a742-77cf33765def.png/v1/fill/w_1280,h_733,q_80,strp/benedetta_moonblade__special_skin__by_leminhthient_df4uh2o-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzMzIiwicGF0aCI6IlwvZlwvMGNjZDRmODEtMmNjOS00OTIwLWJmZjgtN2EzYWEwMzEzNzMxXC9kZjR1aDJvLWU3ZGM0YmQwLTU5Y2ItNDZhYy1hNzQyLTc3Y2YzMzc2NWRlZi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.pNAG80ygFIQChaBDr77BN46IJcBegcx7VfSrZfwM4T4');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+#conteiner {
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+#titulo {
+  padding: 50px 0 50px 0px;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #000, #ffffff01);
+  text-shadow: 1px 1px 4px #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#entrada {
+  margin: 30px 30px;
+  width: auto;
+  max-width: 250px;
+  box-shadow: 3px 3px 5px #000;
+  padding: 0px 30px 0px 30px ;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#form {
+  padding: 80px 0px 80px 0px ;
+  display: grid;
+  grid-template-columns: 100%;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#nivel {
+  font-size: 45px;
+  border-radius: 5px;
+  border: 1px solid darkcyan;
+  height: 50px;
+}
+
+#nivel::placeholder{
+  color: rgba(0, 139, 139, 0.5);
+  font-size: small;
+  text-align: center;
+}
+
+#botoes {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+.botao {
+  width: 10em;
+  color: white;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 4px #000;
+  background: linear-gradient(rgb(0, 213, 228), rgb(0, 128, 128), rgb(190, 255, 255));
+  border: 1px solid darkcyan;
+  border-radius: 5px;
+}
+
+#rank, #vitorias {
+  padding: 5px 0 5px 0;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 30px 0px 30px ;
+  text-shadow: 1px 1px 4px #fff;
+  background-color: #ffffff30;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#saida, #saida p {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mensagemServidor {
+  padding: 0 5px 0 5px;
+  color: darkred;
+  font-size: 14px;
+  font-weight: 900;
+  text-shadow: none;
+  text-align: center;
+  background-color: #ff000050;
+  border-radius: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#autor {
+  display: flex;
+  letter-spacing: 1.5px;
+  justify-content: center;
+  font-size: 12px;
+  color: #00000050;
+  margin-bottom: 5px;
+}
