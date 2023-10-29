@@ -1,0 +1,1 @@
+[Redirecionamento](../../potencia-tech-ifood-programacao-do-zero/Classificador-de-nivel-de-heroi)
