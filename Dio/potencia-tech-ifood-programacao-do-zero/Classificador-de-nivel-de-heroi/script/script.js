@@ -37,7 +37,7 @@ function limparDados(){
 
 function calcularXp() {
   debugger
-  const verificadorDeNumeros = /[^a-zA-ZÀ-ÿ\-\'\s]+/g; // RegEx
+  const verificadorDeNumeros = /[^a-zA-ZÀ-ÿ\-\'\s]+/g; // RegExp
   let nome = nomeJogador.value
   let saldoXp = parseInt(xpJogador.value)
   stringNome = `${nomeJogador.value}`
